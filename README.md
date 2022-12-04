@@ -11,4 +11,6 @@ A 1-dimensional, 7-neighbor (r=3) cellular automaton, inspired from [this page](
 
 ### 2. nks.ipynb
 
-Tried to go back to basics with the [Elementary cellular automata](https://cellpylib.org/eca.html) from New Kind of Science (NKS). Network accuracy never went above 0.57, and the network coudn't ever validate on the test set.
+Tried to go back to basics with the [Elementary cellular automata](https://cellpylib.org/eca.html) from New Kind of Science (NKS). Network accuracy never went above 0.57, and the network coudn't ever validate on the test set. However, the network did learn some of the "attractor" states of the automaton, which is interesting.
+
+![nks](nks_overlay.png)
